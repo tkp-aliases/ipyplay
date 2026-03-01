@@ -141,14 +141,12 @@ js/node_modules
 js/test-results
 js/playwright-report
 js/*.tgz
-ipyplay/extension
 
 # Jupyter
 .ipynb_checkpoints
 .autoversion
 Untitled*.ipynb
-!ipyplay/extension/ipyplay.json
-!ipyplay/extension/install.json
+ipyplay/extension
 ipyplay/nbextension
 ipyplay/labextension
 
@@ -157,3 +155,7 @@ ipyplay/labextension
 
 # Rust
 target
+
+# Hydra
+outputs/
+multirun/

@@ -1,4 +1,4 @@
-from ipyplay import *  # noqa
+from ipyplay import *
 
 
 def test_all():
